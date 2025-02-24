@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/HLong0000/th-nh/refs/heads/main/skibidi')))()
 
-local Window = OrionLib:MakeWindow({Name = "HLongScript", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
+local Window = OrionLib:MakeWindow({Name = "ThịnhVip", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
 local Tab = Window:MakeTab({
 	Name = "ScriptFarm",
