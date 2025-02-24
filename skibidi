@@ -1,0 +1,188 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/HLong0000/th-nh/refs/heads/main/skibidi')))()
+
+local Window = OrionLib:MakeWindow({Name = "HLongScript", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
+
+local Tab = Window:MakeTab({
+	Name = "ScriptFarm",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab2 = Window:MakeTab({
+	Name = "Mod Client",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab3 = Window:MakeTab({
+	Name = "Hiệu Năng",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab3:AddButton({
+	Name = "RTX",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+        loadstring(game:HttpGet("https://pastebin.com/raw/vmjZ4UY8"))()
+end
+})
+
+Tab3:AddButton({
+	Name = "Fix Lag",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+end
+})
+
+Tab3:AddButton({
+	Name = "Anti Kick",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+     loadstring(game:HttpGet("https://pastebin.com/raw/FPfaukXN"))()
+end
+})
+Tab3:AddButton({
+	Name = "Farm Nhanh",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+        loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0nz10lq49fey5.lua"))()
+end
+})
+
+
+Tab2:AddButton({
+	Name = "Fruit Finder",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/AdminusGames/Blox_Fruits_Sniper/main/.lua'))()
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "Arceus X",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+end
+})
+
+Tab2:AddButton({
+	Name = "Krnl",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+      loadstring(game:HttpGet("https://pastebin.com/raw/M3HjLPU7"))()
+end
+})
+
+Tab2:AddButton({
+	Name = "Synapse X",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+      loadstring(game:HttpGet("https://pastebin.com/raw/QmqSgQ3K"))()
+end
+})
+
+Tab2:AddButton({
+	Name = "Keyboard",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end
+})
+
+Tab:AddButton({
+	Name = "KaitunFarm",
+	Callback = function()
+       getgenv().simple_settings = {
+
+    ["MASTERY"] = { -- Settings related to leveling up weapon or skill mastery
+
+        ["ACTIVE"] = true, -- Enable or disable mastery leveling (true = enabled, false = disabled)
+
+        ["METHOD"] = "Half", -- Method for gaining mastery, "Half"[300] or "Full"[600]
+
+    },
+
+ 
+
+    ["OBJECTIVE"] = { -- Goals for farming and unlocking features
+
+        ["GODHUMAN"] = true, -- Automatically unlock the "Godhuman" fighting style
+
+        ["RACE-V3"] = true, -- Automatically upgrade character race to V3 if possible Human, Mink, (Fishman, Ghoul, Cyborg) soon
+
+        ["FRAGMENT"] = 100000, -- Limit number of fragments to collect
+
+ 
+
+        -- SWORD
+
+        ["CANVANDER"] = true,
+
+        ["BUDDY-SWORD"] = true,
+
+        ["CURSED-DUAL-KATANA"] = true,
+
+        ["SHARK-ANCHOR"] = true, -- soon..
+
+ 
+
+        --GUN
+
+        ["ACIDUM-RIFLE"] = true,
+
+        ["VENOM-BOW"] = true,
+
+        ["SOUL-GUITAR"] = true,
+
+    },
+
+ 
+
+    ["FRUITPURCHASE"] = true, -- Automatically purchase fruits based on priority list
+
+    ["PRIORITYFRUIT"] = { -- List of preferred fruits to purchase or eat in order of priority
+
+        [1] = "Dragon-Dragon",
+
+        [2] = "Flame-Flame",
+
+        [3] = "Rumble-Rumble",
+
+        [4] = "Human-Human: Buddha",
+
+        [5] = "Dark-Dark",
+
+    },
+
+ 
+
+    ["FPSCAP"] = 30, -- Limit the frame rate to optimize performance
+
+    ["LOWTEXTURE"] = true -- Reduce graphic quality for better performance
+
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/refs/heads/main/bloxfruit-kaitan-main.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "RedzHub",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "W-Azure",
+	Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Chests Farm",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/ChestFarmOp"))()
+end    
+})
